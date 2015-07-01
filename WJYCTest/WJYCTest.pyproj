@@ -18,9 +18,10 @@
     <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
     <Name>WJYCTest</Name>
     <RootNamespace>WJYCTest</RootNamespace>
-    <InterpreterId>{2a97d17b-3a2e-4885-8ee1-5745a8e73acc}</InterpreterId>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
     <NameOfLastUsedPublishProfile>wjyc</NameOfLastUsedPublishProfile>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,6 +54,8 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <None Include="wjyc.pubxml" />
+    <Content Include="WJYCTest\static\img\SummerHols.png" />
+    <Content Include="WJYCTest\static\img\wanted.png" />
     <Content Include="WJYCTest\static\php\contact_me.php" />
     <Content Include="WJYCTest\static\content\bootstrap.css" />
     <Content Include="WJYCTest\static\content\bootstrap.min.css" />
@@ -119,17 +122,7 @@
     <Content Include="WJYCTest\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env\">
-      <Id>{2a97d17b-3a2e-4885-8ee1-5745a8e73acc}</Id>
-      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
-      <Version>3.4</Version>
-      <Description>env (Python 3.4)</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <LibraryPath>Lib\</LibraryPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X86</Architecture>
-    </Interpreter>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
