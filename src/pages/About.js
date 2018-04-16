@@ -16,15 +16,12 @@ const About = () => (
         </PersonItem>
         <hr />
         <PersonItem heading="Phil Dalziel" job="Youth Leader" src={person}>
-            Photographer, nature lover.
         </PersonItem>
         <hr />
         <PersonItem heading="Richard Burningham" job="Chairman" src={person}>
-            Retired vicar.
         </PersonItem>
         <hr />
         <PersonItem heading="Alan Brewer" job="Safeguarding Officer" src={person}>
-            Retired carpenter and school caretaker.
         </PersonItem>
     </div>
 );
