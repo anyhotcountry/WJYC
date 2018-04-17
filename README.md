@@ -1,3 +1,6 @@
+[![Build Status](https://chrismare.visualstudio.com/_apis/public/build/definitions/f503f130-aa90-420f-ac93-576580f49785/2/badge)](https://chrismare.visualstudio.com/Living%20Water%20Website/_build/index?definitionId=2&_a=completed)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
