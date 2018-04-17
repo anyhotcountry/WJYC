@@ -7,8 +7,8 @@ const Schedule = () => (
         <p className="lead">We normally meet at 6:15 on a Wednesday during school term times. Below is our latest schedule.</p>
         <Table bordered>
             <tbody>
-                <tr><td>	18 April	</td><td>	Club Night	</td></tr>
-                <tr><td>	25 April	</td><td>	Club Night	</td></tr>
+                <tr><td>	18 April	</td><td>	Freeze Frame	</td></tr>
+                <tr><td>	25 April	</td><td>	Photo Challenge	</td></tr>
                 <tr><td>	2 May	</td><td>	May Food Feast	</td></tr>
                 <tr><td>	9 May	</td><td>	May Food Feast	</td></tr>
                 <tr><td>	16 May	</td><td>	May Food Feast	</td></tr>
